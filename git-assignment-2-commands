@@ -1,0 +1,57 @@
+mkdir assignment2
+ls
+cd assignment2
+touch feature1.txt feature2.txt
+ls
+git init
+git add feature1.txt feature2.txt
+ls
+git status
+git commit -m "commiting both feature1.txt & feature2.txt"
+git branch
+git checkout master
+ls
+git remote add Git-Assignment-2 https://github.com/visaltyagi/Git-Assignment-2.git
+git remote -v
+git branch
+git branch -d develop feature1 feature2
+ls
+git branch
+git push Git-Assignment-2 master
+git branch develop
+git branch feature1
+git branch feature2
+git checkout branch
+git branch
+git checkout develop
+touch develop.txt
+ls
+git status
+git stash -u
+ls
+git checkout feature1
+git checkout develop
+git checkout feature
+git checkout feature1
+touch new.txt
+ls
+git status
+git add new.txt
+git commit -m "committing new.txt file"
+git status
+git checkout develop
+ls
+git stash pop develop.txt
+git stash pop
+ls
+git add develop.txt
+git status
+git commit -m "commiting the develop.txt file"
+git status
+git checkout master
+git branch
+git push -u Git-Assignment-2 develop feature1 feature2
+git checkout feature1
+ls
+git checkout master
+history
